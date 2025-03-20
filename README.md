@@ -1,4 +1,4 @@
-# test_part2
+ # test_part2
 
 A new Flutter project.
 
@@ -19,22 +19,22 @@ Features:
 
 ## Account List Screen:
 
-Displays a list of accounts (Chequing and Savings) with account numbers and balances.
-Each account has a button that navigates to the Transactions Screen to view recent transactions.
+1.Displays a list of accounts (Chequing and Savings) with account numbers and balances.
+2.Each account has a button that navigates to the Transactions Screen to view recent transactions.
 
 ## Transactions Screen:
 
-Displays a list of transactions for the selected account (Chequing or Savings).
-Transactions show the date, description, and amount.
-Includes a back button to return to the previous screen.
+1.Displays a list of transactions for the selected account (Chequing or Savings).
+2.Transactions show the date, description, and amount.
+3.Includes a back button to return to the previous screen.
 
 ## JSON Data:
-Account Data: Contains the type, account number, and balance for each account.
-Transaction Data: Contains a list of transactions categorized by account type (Chequing or Savings). Each transaction has a date, description, and amount.
+1.Account Data: Contains the type, account number, and balance for each account.
+2.Transaction Data: Contains a list of transactions categorized by account type (Chequing or Savings). Each transaction has a date, description, and amount.
 
 ## Code Summary:
-DateFormat: Used to format the current date for the Welcome Screen.
-JSON Parsing: Used to parse account and transaction data.
-Navigation: Uses Navigator.push to transition between screens and Navigator.pop to go back.
+1.DateFormat: Used to format the current date for the Welcome Screen.
+2.JSON Parsing: Used to parse account and transaction data.
+3.Navigation: Uses Navigator.push to transition between screens and Navigator.pop to go back.
 pubspec.yaml:
 The app uses intl for date formatting and other dependencies like cupertino_icons and flutter_test.
